@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="krunal.com.example.commoncomponents.MainActivity">
+
+    <TextView
+        android:id="@+id/seek_bar"
+        style="@style/CategoryStyle"
+        android:text="@string/seekbar" />
+
+    <TextView
+        android:id="@+id/switch1"
+        style="@style/CategoryStyle"
+
+        android:text="@string/switch1" />
+
+    <TextView
+        android:id="@+id/checkbox_and_radiobutton"
+        style="@style/CategoryStyle"
+
+        android:text="@string/checkbox_and_radiobutton" />
+
+    <TextView
+        android:id="@+id/Togglebutton"
+        style="@style/CategoryStyle"
+
+        android:text="@string/Togglebutton" />
+
+    <TextView
+        android:id="@+id/imagebutton"
+        style="@style/CategoryStyle"
+        android:text="@string/imagebutton"/>
+
+    <TextView
+        android:id="@+id/Snackbarbutton"
+        style="@style/CategoryStyle"
+        android:text="@string/SnakeBar"/>
+
+
+
+
+</LinearLayout>

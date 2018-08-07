@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Common Components</string>
+
+    <string name="seekbar">Seekbar</string>
+    <string name="switch1">Switch</string>
+    <string name="checkbox_and_radiobutton">Checkbox and Radiobutton</string>
+    <string name="Togglebutton">Togglebutton</string>
+    <string name="imagebutton">Imagebutton</string>
+    <string name="_0">0</string>
+    <string name="_03">0</string>
+    <string name="ice_cream_cake">Ice cream cake</string>
+    <string name="blockchain">Blockchain</string>
+    <string name="mobile">Mobile</string>
+    <string name="website">Website</string>
+    <string name="cookies">Cookies</string>
+    <string name="cake">Cake</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="cat">Cat</string>
+    <string name="dog">Dog</string>
+    <string name="horse">Horse</string>
+    <string name="imagebutton1">ImageButton1</string>
+    <string name="simple_snackbar">Simple Snackbar</string>
+    <string name="action_callback_snakebar">Action Callback snakebar</string>
+    <string name="custom_view_snakebar">Custom View snakebar</string>
+    <string name="SnakeBar">SnakeBar</string>
+
+</resources>

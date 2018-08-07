@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckBoxandRadioButtonActivity">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="116dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="174dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/cake"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup2"
+        app:layout_constraintStart_toStartOf="@+id/checkBox2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="155dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="13dp"
+        android:text="@string/ice_cream_cake"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="354dp"
+        android:text="@string/cookies"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/checkBox2"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <Button
+        android:id="@+id/Checkbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="34dp"
+        android:text="@string/checkbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+    <Button
+        android:id="@+id/Radiobtn"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="42dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:text="@string/radiobutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox"
+        app:layout_constraintVertical_bias="0.798" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="104dp"
+        android:layout_height="119dp"
+        android:layout_marginBottom="164dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginStart="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Radiobtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox">
+
+        <RadioButton
+            android:id="@+id/radioButtoncat"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cat" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDog"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dog" />
+
+        <RadioButton
+            android:id="@+id/radioButtonHourse"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/horse" />
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>
